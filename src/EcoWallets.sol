@@ -60,6 +60,9 @@ contract EcoWalletsEntryPoint {
 
     uint256 private constant PATCH_SIZE = 5;
 
+    // Create initcode for a runtime that:
+    //  1. Self-destructs if this contract calls it directly.
+    //  2. Does not allow non-delegatecall calls from anyone else.
     function _getRuntimeInitCode(bytes calldata runtimeCode)
         internal view
         returns (bytes memory runtimeInitCode)

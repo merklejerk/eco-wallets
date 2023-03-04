@@ -60,6 +60,18 @@ contract EcoWalletsTest is Test {
         vm.expectRevert();
         wep.exec(type(RuntimeWithRevert).runtimeCode, "", 0);
     }
+
+    function test_execRevertsIfCallTriesToDirectCallRuntime() external {
+        RuntimeCallsLogic logic = RuntimeCallsLogic(
+            wep.getRuntimeByRuntimeCode(type(RuntimeCallsLogic).runtimeCode)
+        );
+        vm.expectRevert();
+        wep.exec(
+            type(RuntimeCallsLogic).runtimeCode,
+            abi.encodeCall(RuntimeCallsLogic.foo, (logic)),
+            0
+        );
+    }
 }
 
 contract EcoWalletsPostExecTest is Test {
@@ -131,4 +143,12 @@ contract RuntimeWithFunction {
     function foo() external payable {
         emit Foo();
     }
+}
+
+contract RuntimeCallsLogic {
+    function foo(RuntimeCallsLogic logic) external {
+        logic.bar();
+    }
+
+    function bar() external pure {}
 }
