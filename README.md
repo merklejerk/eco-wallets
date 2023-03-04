@@ -5,4 +5,4 @@ Ephemeral Counterfactual Wallets
 
 | Network | Address  |
 |---------|----------|
-| Goerli  | 0x82b035B4405Dd60b449b054894004FeE80566655 |
+| Goerli  | [0x82b035B4405Dd60b449b054894004FeE80566655](https://goerli.etherscan.io/address/0x82b035B4405Dd60b449b054894004FeE80566655) |
