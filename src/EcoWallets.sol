@@ -19,10 +19,8 @@ contract EcoWalletsEntryPoint {
     {
         address runtime = _deployRuntime(runtimeCode);
         _exec(runtime, callData, msg.sender, walletSalt);
-        {
-            // Destroy the runtime contract by calling into it.
-            _transferEth(runtime, 0);
-        }
+        // Destroy the runtime contract by calling into it.
+        _transferEth(runtime, 0);
     }
 
     /// @notice Execute an existing runtime from a wallet controlled by the caller. 
