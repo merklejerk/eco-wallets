@@ -1,7 +1,7 @@
 name: test
 
 on:
-  oush
+  push
 
 env:
   FOUNDRY_PROFILE: ci
