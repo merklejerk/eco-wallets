@@ -29,4 +29,4 @@ An **e**phemeral, **co**unterfactual wallet primitve for cool hacker devs with c
 TBD
 
 #### Acknowledgements
-S/O to @justinschuldt, @johncpalmer, @samedayjeremy, and @steveklebanoff for their contributions and guidance!
+S/O to [@justinschuldt](https://github.com/justinschuldt), [@johncpalmer](https://github.com/johncpalmer), [@samedayjeremy](https://github.com/samedayjeremy), and [@steveklebanoff](https://github.com/steveklebanoff) for their contributions and guidance!
