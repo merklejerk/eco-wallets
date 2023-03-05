@@ -7,8 +7,6 @@ contract EcoWalletsEntryPoint {
     address private _currentExecRuntime;
     /// @dev The current calldata to execute on logic contract.
     bytes private _currentExecCallData;
-    /// @notice Whether an execFrom nonce was consumed.
-    mapping(address => mapping(uint248 => uint256)) public wasNonceUsed;
 
     error RuntimeDeployError();
     error RuntimeDestroyError();
