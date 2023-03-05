@@ -26,7 +26,7 @@ An **e**phemeral, **co**unterfactual wallet primitve for cool hacker devs with c
 | Goerli  | [0x82b035B4405Dd60b449b054894004FeE80566655](https://goerli.etherscan.io/address/0x82b035B4405Dd60b449b054894004FeE80566655) |
 
 #### Demo App
-[w41337.dev](https://w41337.dev)
+[w41337.dev](https://w41337.dev) ([repo](https://github.com/merklejerk/eco-wallets-demo-2))
 
 #### Acknowledgements
 S/O to [@justinschuldt](https://github.com/justinschuldt), [@johncpalmer](https://github.com/johncpalmer), [@samedayjeremy](https://github.com/samedayjeremy), and [@steveklebanoff](https://github.com/steveklebanoff) for their contributions and guidance throughout the hack!
