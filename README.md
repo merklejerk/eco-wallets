@@ -27,3 +27,6 @@ An **e**phemeral, **co**unterfactual wallet primitve for cool hacker devs with c
 
 #### Demo App
 TBD
+
+#### Acknowledgements
+S/O to @justinschuldt, @johncpalmer, @samedayjeremy, and @steveklebanoff for their contributions and guidance!
