@@ -1,7 +1,7 @@
 *These smart contracts were developed for our EthDenver '23 hackathon project W41337!*
 # ECo Wallets
-An **e**phemeral, **co**unterfactual smart wallet for cool hacker devs with certain desirable properties:
-- Smart: Runs arbitrary bytecode only when you interact with it.
+An **e**phemeral, **co**unterfactual wallet primitve for cool hacker devs with certain desirable properties:
+- Smart: Runs arbitrary bytecode (only) when you interact with it.
 - Convenient: Instantly execute code on-chain without a separate deployment step. 
 - Non-polluting: Leaves no state or code behind after it executes.
 - Stateless/Codeless: No code means no need to implement token receiver callbacks.
